@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bane Wheels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="loader.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .dark-mode {
+  background-color: black;
+  color: white;
+}
+     header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" https://images.unsplash.com/photo-1622512641095-685bf461c92d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZG9kZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60"
+    );
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: aliceblue;
+  }
+  .display-5{
+      position: relative;
+      top: 370px;
+
+  }
+  .col-sm-6{
+    margin-top: 15px;
+  }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">Bane Wheels</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Cars for sale</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="CV2.html">CV2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Sign Up.html">Sign Up</a>
+              </li>
+
+              <li>
+                <button class="btn dark-mode " onclick="myFunction()"> <i class="fa-solid fa-sun "> </i></button>
+            
+                
+              </li>
+              
+            </ul>
+       
+          </div>
+        
+        </div>
+      </nav>
+      <div class="container mt-3 rounded">
+          <div class="row " >
+              <div class="col-6" >
+                  <img src="haidong-liang-rcoDRb_2x90-unsplash.jpg" alt="form-image" class="w-100 img-fluid " style="border-top-left-radius: 10px; border-bottom-left-radius:10px;">
+              </div>
+              <div class="col-6 " style="align-items: center;">
+                <form class="mt-7">
+                    <h1 class="display-2">Contact Us</h1>
+                    <div class="mb-4">
+                        <label for="exampleInputEmail1" class="form-label">Name</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-4">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">Your Email is strictly for the use of this website. We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleInputEmail1" class="form-label">Phone</label>
+                        <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                     
+                      </div>
+                    <div class="mb-4">
+                      <label for="exampleInputPassword1" class="form-label">Message</label>
+                      <input type="text" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check here</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+      <footer>
+        <p>Bane Wheels&copy;2022;</p>
+        <button id="like" class="top-right"><i class="fa-brands fa-instagram "></i></button>
+        <button id="like" class="top-right"><i class="fa-brands fa-linkedin "></i></button>
+        <button id="like" class="top-right"><i class="fa-brands fa-facebook "></i></button>
+        <button id="like" class="top-right"><i  class="fa-brands fa-twitter "></i></button>
+   
+  </footer>
+</body>
+</html>
